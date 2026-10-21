@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #F7FBFF;
+  --bg-secondary: #EFF7FF;
+  --accent-main: #3B82F6;
+  --accent-secondary: #60A5FA;
+  --accent-soft: #BFDBFE;
+  --heading: #102A43;
+  --body-text: #475569;
+  --card-bg: #FFFFFF;
+  --border-color: #DCEBFA;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F7FBFF;
+  color: #475569;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Marquee ticker animation */
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 25s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Swiper pagination in light blue theme */
+.swiper-pagination-bullets {
+  bottom: 0px !important;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 8px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: #BFDBFE !important;
+  opacity: 1 !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3B82F6 !important;
+  width: 44px !important;
+  height: 12px !important;
+  border-radius: 12px !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EFF7FF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BFDBFE;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3B82F6;
+}
+
+/* Selection */
+::selection {
+  background: #BFDBFE;
+  color: #102A43;
+}

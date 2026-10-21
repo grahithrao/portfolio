@@ -1,81 +1,39 @@
-# Grahith G Rao — Portfolio
+# Grahith Rao — AI/ML Engineer Portfolio
 
-> Personal portfolio site for **Grahith G Rao**, AI/ML Engineer & Developer specialising in Computer Vision, Multimodal AI, NLP, and Embedded Systems.
+An award-winning personal portfolio engineered for **Grahith Rao**, Artificial Intelligence & Machine Learning Engineer, featuring an elegant **Light Blue Design System**, responsive Next.js 15 App Router architecture, and real-time client-side computer vision.
 
-🌐 **Live site:** [grahithrao.github.io/portfolio](https://grahithrao.github.io/portfolio)
+## ✨ Highlights
 
----
+- **Light Blue Design System**: Curated color palette (`#F7FBFF`, `#EFF7FF`, `#3B82F6`, `#60A5FA`, `#BFDBFE`, `#102A43`, `#475569`, `#DCEBFA`).
+- **Signature Hero Composition**: Floating pill navigation, left quotation statement, bold center typography, light blue arch backdrop with Grahith's photograph, dual toggle capsule buttons, and 5-star experience badge.
+- **Client-Side Live Demo**: MediaPipe hand-tracking and gesture recognition running directly in the browser via WebAssembly and GPU acceleration.
+- **Flagship Projects Showcase**: Interactive cards featuring SignSpeak Gloves, AI Career Guidance System, and AI Fake Review Detection with hover reveal and live metrics.
+- **Interactive Timeline**: Work experience and education timeline with dashed connectors and color-coded indicator dots.
+- **15 Verified Credentials**: Directly accessible certificates from Deloitte, AWS NASSCOM, IBM, IIT Kharagpur, and Infosys Springboard.
+- **Skills Marquee**: Continuous ribbon marquee animation showcasing core technical competencies.
+- **Working Contact System**: Clean contact experience with email, phone, location, and asynchronous form submission.
 
-## About
+## 🚀 Tech Stack
 
-This is a single-page portfolio built with plain **HTML + CSS + JavaScript** — no frameworks, no build step, just fast and clean.
+- **Framework**: Next.js 15 (App Router, Static Prerendering)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4 & Vanilla CSS
+- **Icons**: Lucide React
+- **Carousels**: Swiper
+- **Edge AI**: Google MediaPipe Tasks Vision (WebAssembly)
 
-It covers:
-- Who I am and what I do
-- Projects & research work
-- Skills and tools
-- Certifications
-- Resume & contact links
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Structure | HTML5 (semantic) |
-| Styling | Vanilla CSS (custom properties, grid, flexbox) |
-| Interactivity | Vanilla JavaScript |
-| Fonts | [Inter](https://fonts.google.com/specimen/Inter) via Google Fonts |
-| Hosting | GitHub Pages |
-
----
-
-## Project Structure
-
-```
-portfolio/
-├── index.html        # Main portfolio page (all-in-one)
-├── profile.jpg       # Profile photo
-├── resume.pdf        # Downloadable resume
-└── certs/            # Certificate PDFs & images
-    ├── ai-for-all.pdf
-    ├── aws-cloud-internship.pdf
-    ├── generative-ai.pdf
-    ├── ml-with-python-v2.pdf
-    ├── nptel-intro-to-ml.pdf
-    └── ...
-```
-
----
-
-## Running Locally
-
-No install needed. Just serve the folder:
+## 🛠️ Development
 
 ```bash
-# Python (built-in)
-python3 -m http.server 8000
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build production bundle
+npm run build
+
+# Start production server
+npm run start
 ```
-
-Then open → [http://localhost:8000](http://localhost:8000)
-
----
-
-## Deploying to GitHub Pages
-
-1. Go to your repo → **Settings → Pages**
-2. Set source to `main` branch, `/ (root)`
-3. Save — your site will be live at `https://grahithrao.github.io/portfolio`
-
----
-
-## Contact
-
-- **Email:** available on the site
-- **LinkedIn:** [linkedin.com/in/grahithrao](https://linkedin.com/in/grahithrao)
-- **GitHub:** [github.com/grahithrao](https://github.com/grahithrao)
-
----
-
-<p align="center">Built by Grahith G Rao · 2025</p>
