@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://grahithrao.vercel.app"),
   title: "Grahith Rao | Artificial Intelligence & Machine Learning Engineer",
   description:
     "Portfolio of Grahith Rao — AI/ML Engineer building intelligent systems, computer vision pipelines, embedded hardware prototypes, and full-stack web applications.",

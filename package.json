@@ -11,10 +11,10 @@
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
     "lucide-react": "^0.517.0",
-    "next": "15.3.3",
+    "next": "^16.4.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "swiper": "^11.2.8"
+    "swiper": "^14.3.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -23,7 +23,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.3.3",
+    "eslint-config-next": "^16.4.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
